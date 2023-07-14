@@ -1,0 +1,14 @@
+.navb{
+    
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px;
+    
+}
+
+.items{
+    background-color:antiquewhite;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 5%;
+}

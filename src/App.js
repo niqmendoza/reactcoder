@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+//import ButtonComponent from './components/ButtonComponent/ButtonComponent'
+import Saludo from './components/Saludo/Saludo';
+//import Item from './components/Item/Item';
+import Navbar from './components/navbar/Navbar';
+import Carrito from './components/Carrito/Carrito';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <div className='navv'>
+        <Navbar />
+        <Carrito />
+        </div>
+        <img src='https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png' className="App-logo" alt="logo" />
+        <p className="bienvenida">
+          Esta es mi tienda de Mangas
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Saludo username='Coder'/>
+
       </header>
+      
     </div>
   );
 }
